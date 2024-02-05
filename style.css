@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.focused::placeholder {
+    transform: translateY(-10px);
+}
